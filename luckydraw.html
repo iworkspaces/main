@@ -12,7 +12,7 @@
       font-family: 'Sarabun', sans-serif; /* ใช้ฟอนต์ Sarabun */
       background-color: #E0F2F7; /* พื้นหลังสีฟ้าอ่อน */
       margin: 0;
-      padding: 16px;
+      padding: 5px;
       display: flex;
       justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
       align-items: flex-start; /* จัดให้อยู่ด้านบนในแนวตั้ง (เพื่อการเลื่อนที่ดีบนมือถือ) */
@@ -24,20 +24,20 @@
     .container {
       max-width: 960px; /* ความกว้างสูงสุดของ container */
       width: 100%;
-      margin: 20px auto; /* ระยะห่างจากด้านบนและกึ่งกลางอัตโนมัติ */
+      margin: 5px auto; /* ระยะห่างจากด้านบนและกึ่งกลางอัตโนมัติ */
       background-color: #ffffff; /* พื้นหลังสีขาว */
-      border-radius: 12px; /* ขอบโค้งมน */
-      padding: 18px;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* เงาของกล่อง */
+      border-radius: 5px; /* ขอบโค้งมน */
+      padding: 5px;
+      box-shadow: 0 6px 5px rgba(0, 0, 0, 0.15); /* เงาของกล่อง */
       text-align: center; /* จัดเนื้อหาใน container ให้อยู่กึ่งกลาง */
     }
 
     /* สไตล์สำหรับรูปภาพ Header */
     .header-image {
-      max-width: 100%; /* ทำให้รูปภาพไม่เกินความกว้างของ container */
+      max-width: 90%; /* ทำให้รูปภาพไม่เกินความกว้างของ container */
       height: auto; /* รักษาอัตราส่วนของรูปภาพ */
-      margin-bottom: 20px; /* เว้นระยะห่างด้านล่างรูปภาพ */
-      border-radius: 8px; /* ทำให้ขอบรูปภาพโค้งมนเล็กน้อย */
+      margin-bottom: 5px; /* เว้นระยะห่างด้านล่างรูปภาพ */
+      border-radius: 5px; /* ทำให้ขอบรูปภาพโค้งมนเล็กน้อย */
       display: block; /* เพื่อให้สามารถจัดกึ่งกลางด้วย margin auto ได้ */
       margin-left: auto; /* จัดกึ่งกลางรูปภาพ */
       margin-right: auto; /* จัดกึ่งกลางรูปภาพ */
@@ -47,35 +47,35 @@
     h2 {
       text-align: center;
       color: #00567A; /* สีน้ำเงินเข้มสำหรับหัวเรื่อง */
-      margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่าง */
+      margin-bottom: 5px; /* เพิ่มระยะห่างด้านล่าง */
       font-size: 2.2em; /* ขนาดฟอนต์ที่ใหญ่ขึ้น */
     }
 
     h3 {
       color: #00567A; /* สีน้ำเงินเข้ม */
       font-size: 1.8em; /* ขนาดฟอนต์ที่ใหญ่ขึ้น */
-      margin-top: 30px; /* เพิ่มระยะห่างด้านบน */
-      margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่าง */
+      margin-top: 5px; /* เพิ่มระยะห่างด้านบน */
+      margin-bottom: 5px; /* เพิ่มระยะห่างด้านล่าง */
     }
 
     label {
       font-weight: bold; /* ตัวหนา */
       display: block; /* แสดงเป็นบล็อกเต็มบรรทัด */
-      margin-top: 30px; /* เพิ่มระยะห่างด้านบน */
-      margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่าง */
+      margin-top: 5px; /* เพิ่มระยะห่างด้านบน */
+      margin-bottom: 5px; /* เพิ่มระยะห่างด้านล่าง */
       font-size: 1.3em; /* ขนาดฟอนต์ที่ใหญ่ขึ้น */
       color: #333;
     }
 
     /* สไตล์สำหรับ input field (หากมีการเพิ่มเข้ามาในอนาคต) */
     input[type="number"] {
-      padding: 15px; /* เพิ่ม padding */
-      width: calc(100% - 20px); /* คำนวณความกว้างเผื่อ padding */
+      padding: 5px; /* เพิ่ม padding */
+      width: calc(100% - 5px); /* คำนวณความกว้างเผื่อ padding */
       max-width: 350px; /* ความกว้างสูงสุด */
-      margin-top: 10px;
-      margin-bottom: 25px; /* เพิ่มระยะห่างด้านล่าง */
+      margin-top: 5px;
+      margin-bottom: 5px; /* เพิ่มระยะห่างด้านล่าง */
       border: 1px solid #90CAF9; /* เส้นขอบสีฟ้า */
-      border-radius: 8px; /* ขอบโค้งมน */
+      border-radius: 5px; /* ขอบโค้งมน */
       font-size: 1.4em; /* ขนาดฟอนต์ที่ใหญ่ขึ้น */
       text-align: center; /* จัดข้อความใน input ให้อยู่กึ่งกลาง */
       box-sizing: border-box; /* ทำให้ padding ไม่เพิ่มขนาดรวม */
@@ -85,9 +85,9 @@
     button {
       background-color: #2196F3; /* สีฟ้าสำหรับปุ่ม */
       color: white; /* ตัวอักษรสีขาว */
-      padding: 15px 30px; /* เพิ่ม padding */
+      padding: 15px 5px; /* เพิ่ม padding */
       border: none; /* ไม่มีเส้นขอบ */
-      border-radius: 8px; /* ขอบโค้งมน */
+      border-radius: 5px; /* ขอบโค้งมน */
       cursor: pointer; /* เปลี่ยน cursor เป็น pointer เมื่อชี้ */
       font-size: 1.4em; /* ขนาดฟอนต์ที่ใหญ่ขึ้น */
       font-weight: bold; /* ตัวหนา */
@@ -105,7 +105,7 @@
     button.unlock-btn {
         background-color: #FFC107; /* สีเหลือง */
         color: #333;
-        margin-top: 30px; /* เพิ่มระยะห่างจากปุ่มอื่นๆ */
+        margin-top: 5px; /* เพิ่มระยะห่างจากปุ่มอื่นๆ */
     }
 
     button.unlock-btn:hover {
@@ -116,10 +116,10 @@
     #prizeList, #results, #nonRegisteredList {
       margin-top: 40px; /* เพิ่มระยะห่างด้านบน */
       text-align: left; /* จัดข้อความในส่วนนี้ให้อยู่กึ่งกลาง */
-      padding: 10px 20px; /* เพิ่ม padding */
+      padding: 5px 5px; /* เพิ่ม padding */
       background-color: #F7FBFE; /* พื้นหลังสีฟ้าอ่อนมาก */
-      border-radius: 12px; /* ขอบโค้งมน */
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08); /* เพิ่มเงา */
+      border-radius: 5px; /* ขอบโค้งมน */
+      box-shadow: 0 4px 5px rgba(0,0,0,0.08); /* เพิ่มเงา */
     }
 
     ul {
@@ -131,24 +131,24 @@
     }
 
     li {
-      margin-bottom: 10px; /* เพิ่มระยะห่าง */
+      margin-bottom: 5px; /* เพิ่มระยะห่าง */
       font-size: 1.2em; /* ขนาดฟอนต์ที่ใหญ่ขึ้น */
       color: #555;
     }
 
     /* สไตล์สำหรับผลการสุ่มรางวัล (กลับไปเป็นข้อความธรรมดา) */
     .prize-result-block {
-      margin-bottom: 25px; /* ระยะห่างระหว่างแต่ละชุดรางวัล */
+      margin-bottom: 5px; /* ระยะห่างระหว่างแต่ละชุดรางวัล */
       text-align: left; /* จัดข้อความชิดซ้าย */
     }
 
     .prize-result-block h4 {
       background-color: #BBDEFB; /* สีฟ้าอ่อน */
       color: #00567A; /* สีน้ำเงินเข้ม */
-      padding: 12px 20px; /* Padding */
-      margin: 0 0 10px 0; /* Margin ด้านล่าง */
+      padding: 5px 5px; /* Padding */
+      margin: 0 0 5px 0; /* Margin ด้านล่าง */
       font-size: 1.5em; /* ขนาดฟอนต์ใหญ่ขึ้น */
-      border-radius: 8px; /* ขอบมนเล็กน้อย */
+      border-radius: 5px; /* ขอบมนเล็กน้อย */
       display: inline-block; /* ทำให้ h4 กินพื้นที่เท่าเนื้อหา */
       text-align: center; /* จัดข้อความใน h4 ให้อยู่กึ่งกลาง */
     }
@@ -164,14 +164,14 @@
     #nonRegisteredList table {
       width: 100%; /* เต็มความกว้างของ container */
       border-collapse: collapse; /* ยุบเส้นขอบเซลล์ */
-      margin-top: 20px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* เงาเบาลง */
-      border-radius: 8px; /* ขอบมนเล็กน้อย */
+      margin-top: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* เงาเบาลง */
+      border-radius: 5px; /* ขอบมนเล็กน้อย */
       overflow: hidden; /* เพื่อให้ border-radius ทำงานกับเนื้อหาได้ */
     }
 
     #nonRegisteredList th, #nonRegisteredList td {
-      padding: 8px 10px; /* **ลด padding เพื่อให้กระชับขึ้น** */
+      padding: 5px 5px; /* **ลด padding เพื่อให้กระชับขึ้น** */
       text-align: center;
       border: 1px solid #E0E0E0;
       font-size: 1.1em; /* **ขนาดฟอนต์กระชับขึ้น** */
@@ -194,12 +194,12 @@
     /* Media Queries สำหรับ Responsive Design (สำหรับหน้าจอขนาดเล็กกว่า 600px) */
     @media screen and (max-width: 600px) {
       body {
-        padding: 10px;
+        padding: 5px;
       }
 
       .container {
-        padding: 20px 15px;
-        margin: 10px auto;
+        padding: 5px 5px;
+        margin: 5px auto;
       }
 
       h2 {
@@ -212,16 +212,16 @@
 
       label, input[type="number"], button {
         font-size: 1.1em;
-        padding: 10px 20px;
+        padding: 5px 5px;
       }
 
       input[type="number"] {
-        padding: 12px;
+        padding: 5px;
       }
 
       .prize-result-block h4 {
         font-size: 1.3em;
-        padding: 10px 15px;
+        padding: 5px 5px;
       }
 
       .prize-result-block p {
@@ -230,7 +230,7 @@
       }
 
       #nonRegisteredList th, #nonRegisteredList td {
-        padding: 6px 5px; /* **ลด padding ในตารางบนมือถือให้กระชับขึ้นไปอีก** */
+        padding: 5px 5px; /* **ลด padding ในตารางบนมือถือให้กระชับขึ้นไปอีก** */
         font-size: 0.9em;
       }
     }
